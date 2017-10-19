@@ -41,4 +41,5 @@ git checkout -- readme.txt
 #把暂存区的修改撤销掉（unstage），重新放回工作区
 git reset HEAD readme.txt
 ===========================================
-
+#从版本库中删除该文件
+git rm test.txt
