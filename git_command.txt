@@ -43,3 +43,17 @@ git reset HEAD readme.txt
 ===========================================
 #从版本库中删除该文件
 git rm test.txt
+===========================================
+#添加远程地址
+git remote add origin git@github.com:yourName/yourRepo.git
+===========================================
+#第一次推送master分支的所有内容
+git push -u origin master
+===========================================
+
+#推送最新修改
+git push origin master
+===========================================
+从远程库克隆
+git clone git@github.com:aoemvpbbq/ceshi.git ~/ceshi
+
